@@ -1,0 +1,30 @@
+.about {
+    padding: 5rem 0;
+    overflow: hidden;
+}
+.about img {
+  width: 100%;
+  max-height: 40rem;
+  object-fit: cover;
+  margin-bottom: 5rem;
+}
+.about .text {
+    position: relative;
+}
+.about .text::before {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 2rem;
+    height: 2rem;
+    background-image: url('../img/drop.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: -2.5rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+@media screen and (min-width: 1024px)  {
+   
+}

@@ -1,0 +1,22 @@
+.info__wrapper {
+}
+.info {
+  padding: 10rem 0;
+  position: relative;
+}
+@media screen and (min-width: 1024px) {
+  .info .list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .info .text {
+    margin-bottom: 0;
+  }
+  .info .img {
+    margin: 0 5rem;
+  }
+  .info .item:not(:last-child) {
+    margin-bottom: 0;
+  }
+}

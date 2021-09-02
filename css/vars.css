@@ -1,0 +1,14 @@
+:root {
+  --main-bg-color: #fff;
+  --sub-bg-color: #000;
+  --sub-text-color: #fff;
+  --accent-color: #e43e21;
+  --checkbox-color: #10a1f2;
+
+  --main-text-color: #000;
+
+  --main-font: 'Open Sans Condensed';
+  --title-font:  'Roboto';
+
+  font-size: 62.5%;
+}
