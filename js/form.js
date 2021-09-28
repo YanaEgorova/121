@@ -11,7 +11,6 @@ const bottomHeadphonesPrice = document.getElementById('terms_price');
 const bottomAdditionalPrice = document.getElementById('express_terms');
 const bottomTotalPrice = document.getElementById('total_2');
 const submitBtn = document.getElementById('place_order');
-const errorMessage = document.querySelector('.js_error-message');
 const quantityInput = document.querySelector('.js_quantity');
 const headphonesPrice = document.getElementById('chosen_price');
 const prevQuantityBtn = document.querySelector('.js_quantity_prev');
@@ -25,7 +24,6 @@ const additionalProductPrice = 5.95;
 
 // HIDE START
 
-errorMessage.style.display = 'none';
 topBlock.style.display = 'none';
 headphonesBlock.style.display = 'none';
 additionalBlock.style.display = 'none';
@@ -292,10 +290,7 @@ function quantityLabelOptions(quantity) {
 
 function enterMoreThanThereIs(quantity) {
     if(quantity > amountOfProduct) {
-        errorMessage.style.display = 'block';
         topPriceParagraph.textContent = defaultText;
-    } else {
-        errorMessage.style.display = 'none';
     }
 }
 
